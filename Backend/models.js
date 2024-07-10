@@ -21,7 +21,7 @@ const productSchema =new Schema({
     category:{
         type:String,
         required:true,
-        enum: ['Electronics', 'Books', 'Clothing', 'Home', 'Sports',],
+        enum: ['Electronics', 'Books', 'Clothing', 'Home', 'Sports','others'],
     },
     brand:{
         type:String,
